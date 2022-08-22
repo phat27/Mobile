@@ -1,177 +1,4 @@
-@media screen and (max-width: 590px) {
-  *body {
-    box-sizing: border-box;
-  }
-  html,
-  body {
-    font-size: 62.5%;
-    margin: 0px;
-    background: #696969;
-    font-family: "Times New Roman", Times, serif;
-  }
-  .main {
-    width: 100%;
-  }
-  .logo-item {
-    width: 100%;
-    margin: 0px;
-  }
-  .menu-box {
-    display: flex;
-    margin: 0px;
-    justify-content: space-around;
-    background-color: #ff4500;
-    color: white;
-    padding: 10px 0;
-    font-size: 1rem;
-  }
-  .box-item {
-    padding-right: 10px;
-  }
-
-  .left {
-    max-width: 150px;
-  }
-  .menu-list {
-    background: brown;
-    margin: 0px;
-    margin-top: 10px;
-    text-align: center;
-    padding: 10px;
-    color: white;
-  }
-  h3 {
-    margin: 0px;
-    font-size: 1rem;
-    margin-bottom: 5px;
-    border: 2px solid yellow;
-    padding: 5px 0;
-    margin-right: 5px;
-    background: rgba(255, 255, 0, 0.5);
-  }
-  .background-img-item-menu {
-    padding-top: 10px;
-  }
-  h3:active {
-    opacity: 0.5;
-    border: 2px solid black;
-    cursor: pointer;
-  }
-  .background-img {
-    background-image: url("extra-box-bg.jpg");
-    padding-bottom: 10px;
-    padding-left: 5px;
-  }
-
-  h2 {
-    background: brown;
-    text-align: center;
-    margin: 0px;
-    margin-top: 10px;
-    padding: 10px 0;
-    font-size: 1rem;
-    color: white;
-  }
-  .pic-number {
-    display: flex;
-    justify-content: center;
-  }
-  .pic-number-item {
-    width: 10px;
-  }
-  .people {
-    font-size: 1.3rem;
-  }
-  .day-item {
-    min-width: 100px;
-  }
-  .box-people-item {
-    display: flex;
-    border-bottom: 2px solid black;
-    margin-right: 10px;
-  }
-  .advertise {
-    font-size: 1.2rem;
-  }
-  .layout-center {
-    display: flex;
-  }
-  .right {
-    width: 100%;
-  }
-  .h101 {
-    margin: 0px;
-    margin-top: 10px;
-    margin-left: 5px;
-    color: black;
-    padding: 8.5px;
-    background: orange;
-  }
-  .shell-item {
-    display: flex;
-    justify-content: space-around;
-    background: #698b69;
-    margin-left: 5px;
-    padding: 3px;
-  }
-  .box-item-shel {
-    margin: 2px;
-    border: 1px solid black;
-    display: flex;
-    border-radius: 10px;
-    background: white;
-    flex-direction: column;
-    align-items: center;
-    padding: 3px;
-  }
-  h5 {
-    font-size: 90%;
-    margin: 0px;
-    margin: 5px 0;
-  }
-  .pic-bed-item {
-    width: 100%;
-  }
-  .layout-button-buy {
-    display: flex;
-  }
-  .buy {
-    border: none;
-    background: none;
-    max-width: 100px;
-    font-size: 5px;
-    border: 1px solid black;
-    border-radius: 10px;
-    background: #00ffff;
-  }
-
-  .box-end {
-    margin-top: 10px;
-    border-top: 1px solid black;
-    height: 40px;
-    background: #458b74;
-  }
-  h6 {
-    margin: 0px;
-    text-align: center;
-
-    font-size: 1.4rem;
-  }
-  u {
-    background-color: white;
-  }
-}
 @media screen and (min-width: 600px) {
-  *body {
-    box-sizing: border-box;
-  }
-  html,
-  body {
-    font-size: 62.5%;
-    margin: 0px;
-    background: #696969;
-    font-family: "Times New Roman", Times, serif;
-  }
   .main {
     max-width: 1000px;
     margin: auto;
@@ -324,14 +151,14 @@
     margin: 0px;
     margin: 5px;
   }
-  .buy {
+  .buy{
     border: none;
     min-width: 70px;
     border: 2px solid black;
     border-radius: 10px;
-    background-color: rgba(85, 255, 0, 0.5);
+    background-color:rgba(85, 255, 0, 0.5);
   }
-  .buy:hover {
+  .buy:hover{
     cursor: pointer;
     opacity: 0.8;
   }
@@ -352,9 +179,9 @@
     margin-top: 10px;
     border-top: 2px solid black;
     height: 100px;
-    background-color: #20b2aa;
+    background-color: #20B2AA;
   }
-  h6 {
+  h6{
     text-align: center;
     margin: 0px;
     font-size: 3rem;
