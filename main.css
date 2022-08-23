@@ -90,10 +90,12 @@ body {
     color: blue;
   }
   .top-pic {
+    max-width: 450px;
     display: flex;
   }
   .top-pic_item {
-    width: 100%;
+    width: 140px;
+    height: auto;
   }
   p {
     font-size: 1.1rem;
@@ -173,13 +175,15 @@ body {
     width: 690px;
   }
   .pic-middle {
+    width: 450px;
     display: flex;
   }
   .midle-left-left {
     width: 450px;
   }
   .pic-middle-item {
-    width: 100%;
+    width: 215px;
+    height: auto;
   }
   .midle-left-right {
     width: 250px;
@@ -223,6 +227,10 @@ body {
   .bottom {
     display: flex;
   }
+  .pic-bottom-item {
+    width: 140px;
+    padding-left: 5px;
+  }
   .bottom-right {
     display: flex;
     flex-direction: column;
@@ -231,13 +239,13 @@ body {
   }
   .footer {
     height: 100px;
-    background: #FFC0CB;
+    background: #ffc0cb;
     margin-top: 10px;
     border-top: 1px solid black;
     border-left: 1px solid black;
     border-right: 1px solid black;
   }
-  h1{
+  h1 {
     text-align: center;
     margin: 0px;
     font-size: 3rem;
